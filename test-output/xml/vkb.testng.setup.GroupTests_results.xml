@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.217">
+  <properties />
+  
+  
+            <testcase name="SetupChrome" time="4.545" classname="vkb.testng.setup.GroupTests" />
+                <testcase name="NavigateChrome" time="1.218" classname="vkb.testng.setup.GroupTests" />
+                <testcase name="NavigateFireFox" time="1.155" classname="vkb.testng.setup.GroupTests" />
+                <testcase name="SetupFireFox" time="6.299" classname="vkb.testng.setup.GroupTests" />
+      
+</testsuite>

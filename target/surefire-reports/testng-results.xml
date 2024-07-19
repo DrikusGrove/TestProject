@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-19T10:31:56 SAST" name="Surefire suite" finished-at="2024-07-19T10:32:16 SAST" duration-ms="20310">
+    <groups>
+      <group name="Chrome">
+        <method signature="GroupTests.SetupChrome()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" name="SetupChrome" class="vkb.testng.setup.GroupTests"/>
+        <method signature="GroupTests.NavigateChrome()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" name="NavigateChrome" class="vkb.testng.setup.GroupTests"/>
+      </group> <!-- Chrome -->
+      <group name="Firefox">
+        <method signature="GroupTests.SetupFireFox()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" name="SetupFireFox" class="vkb.testng.setup.GroupTests"/>
+        <method signature="GroupTests.NavigateFireFox()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" name="NavigateFireFox" class="vkb.testng.setup.GroupTests"/>
+      </group> <!-- Firefox -->
+    </groups>
+    <test started-at="2024-07-19T10:31:56 SAST" name="Surefire test" finished-at="2024-07-19T10:32:16 SAST" duration-ms="20310">
+      <class name="vkb.testng.setup.AssertTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vkb.testng.setup.AssertTest@55a561cf]" started-at="2024-07-19T10:31:56 SAST" name="beforeMethod" finished-at="2024-07-19T10:32:01 SAST" duration-ms="5428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AssertTitle()[pri:0, instance:vkb.testng.setup.AssertTest@55a561cf]" started-at="2024-07-19T10:32:01 SAST" name="AssertTitle" finished-at="2024-07-19T10:32:01 SAST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:vkb.testng.setup.AssertTest@55a561cf]" started-at="2024-07-19T10:32:01 SAST" name="afterMethod" finished-at="2024-07-19T10:32:02 SAST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- vkb.testng.setup.AssertTest -->
+      <class name="vkb.testng.setup.GroupTests">
+        <test-method signature="SetupChrome()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" started-at="2024-07-19T10:32:02 SAST" name="SetupChrome" finished-at="2024-07-19T10:32:06 SAST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupChrome -->
+        <test-method signature="SetupFireFox()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" started-at="2024-07-19T10:32:06 SAST" name="SetupFireFox" finished-at="2024-07-19T10:32:14 SAST" duration-ms="7179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupFireFox -->
+        <test-method signature="NavigateChrome()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" started-at="2024-07-19T10:32:14 SAST" name="NavigateChrome" finished-at="2024-07-19T10:32:15 SAST" depends-on-methods="vkb.testng.setup.GroupTests.SetupChrome" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateChrome -->
+        <test-method signature="NavigateFireFox()[pri:0, instance:vkb.testng.setup.GroupTests@add0edd]" started-at="2024-07-19T10:32:15 SAST" name="NavigateFireFox" finished-at="2024-07-19T10:32:16 SAST" depends-on-methods="vkb.testng.setup.GroupTests.SetupFireFox" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateFireFox -->
+      </class> <!-- vkb.testng.setup.GroupTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
